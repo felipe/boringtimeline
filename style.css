@@ -19,13 +19,13 @@
 .timeline li:before {
     content: "";
     position: absolute;
-    top: 3px;
+    top: 0px;
     left: -29px;
     display: block;
     width: 20px;
     height: 20px;
     border: 4px solid #ffffff;
-    border-radius: 10px;
+    border-radius: 20px;
     background: #fff;
 }
 .timeline li .year {
