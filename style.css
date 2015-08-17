@@ -1,7 +1,7 @@
 .timeline {
     color: #fff;
 }
-.timeline ol {
+.timeline ul {
 	position: relative;
 	display: block;
 	margin: 100px 0;

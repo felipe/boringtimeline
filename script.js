@@ -5,4 +5,4 @@ $('.timeline li').hover(function(){
     $(this).addClass('active');
     $('.timeline .description').html($(this).children('div.details').html());
     $(this).children('div.details').css('display','none');
-})
+});
