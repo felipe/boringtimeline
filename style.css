@@ -1,0 +1,55 @@
+.timeline {
+    color: #fff;
+}
+.timeline ol {
+	position: relative;
+	display: block;
+	margin: 100px 0;
+	height: 5px;
+	background: #fff;
+}
+.timeline li {
+	position: relative;
+	top: -11px;
+	float: left;
+	width: 150px;
+	margin-left: 70px;
+	font: bold 14px arial;
+}
+.timeline li:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: -29px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    background: #fff;
+}
+.timeline li .year {
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: -33px;
+    width: 100px;
+}
+.timeline li .details {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -90px;
+}
+.timeline li:hover .year,
+.timeline li:hover .details {
+  display: block;
+}
+.timeline .description {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.timeline li.active .year {
+    display: block;
+}
